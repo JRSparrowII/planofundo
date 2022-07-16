@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.blue{
+    background-color: blue;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.vermelho{
+    background-color: rgb(202, 87, 87);
+    transition: all 0.25s ease-in-out;
+    
+}
+
+.amarelo{
+    background-color: rgb(255, 149, 0);
+    transition: all 0.25s ease-in-out;
+    
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 22px;   
+    font-weight: 300;
+    margin: 0 10px;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+}
